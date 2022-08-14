@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": ">=8"
+    "node": "v16.16.0"
   },
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
