@@ -15,8 +15,6 @@ router.get("/", renderTask);
 
 router.post("/tasks/add", createTask);
 
-router.get("/about", About);
-
 router.get("/edit/:id", editDireccion);
 
 router.post("/edit/:id", editRequest);
