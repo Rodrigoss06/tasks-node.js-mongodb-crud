@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "Rodrigo",
   "license": "ISC",
+  
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "dotenv": "^16.0.1",

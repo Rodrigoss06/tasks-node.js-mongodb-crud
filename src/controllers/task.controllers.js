@@ -7,6 +7,7 @@ export const renderTask =async (req, res) => {
       res.render("index", { tasks: tasks });
     } catch (error) {
       console.log(error);
+      return renderTask.render("error", { errorMessage: error.message})
     }
   }
 export const createTask = async (req, res) => {
